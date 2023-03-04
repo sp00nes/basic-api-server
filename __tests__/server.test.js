@@ -1,4 +1,4 @@
-const { app } = require('../server');
+const { app } = require('../src/server');
 const supertest = require('supertest');
 const mockRequest = supertest(app);
 
